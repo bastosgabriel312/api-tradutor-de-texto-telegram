@@ -1,2 +1,2 @@
-# api-tradutor-de-texto-telegram
+# api-tradutor-telegram
 Integração com API Watson Translator Text e Telegram bot
