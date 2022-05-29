@@ -1,7 +1,5 @@
 import os, requests, uuid, json
 
-
-
 class Tradutor():
     def __init__(self,chaveApi,regiao):
         self.resource_key = chaveApi

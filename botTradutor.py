@@ -17,8 +17,8 @@ def traduzirIdioma(mensagem):
         textoTraduzido = tradutor.traduzir(idioma, 'pt-br', texto)
         print(texto)
         return textoTraduzido['translations'][0]['text']
-    except Exception as e:
-        return e
+    except Exception:
+        return "Ocorreu um erro inesperado, por gentileza contate o responsável"
 
 
 @bot.message_handler(commands=["traduzir"])
